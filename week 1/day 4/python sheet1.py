@@ -37,3 +37,18 @@ student = {
     }
 }
 print(student)
+
+
+num = "2351"
+print(num[:1])
+print(num[1:2])
+print(num[2:3])
+print(num[3:4])
+num = 2351//1000
+print(num)
+num = 351//100
+print(num)
+num = 51//10
+print(num)
+num = 1//1
+print(num)
