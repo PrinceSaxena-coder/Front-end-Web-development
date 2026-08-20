@@ -52,3 +52,9 @@ num = 51//10
 print(num)
 num = 1//1
 print(num)
+num = 101
+while num>0:
+    d = num%10
+    r = r * 10+d
+    num = num//10
+    print(r)
