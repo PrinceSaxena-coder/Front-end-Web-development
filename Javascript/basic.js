@@ -63,7 +63,12 @@
 //     console.log(i++);
 // //     i += 1;
 // str = prompt("Enter a string: ");
-// console.log("@" + str + str.length)
-let studentMarks = [85, 92, 78, 90, 88];
-let averageMarks = studentMarks / studentMarks.length;
-console.log("Average marks: " + averageMarks);
+// // console.log("@" + str + str.length)
+// let studentMarks = [85, 92, 78, 90, 88];
+// let averageMarks = studentMarks / studentMarks.length;
+// // // console.log("Average marks
+// let name = "Kanishka";
+// let letter = name[4];
+// console.log(let/
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[1] + arr[3]);

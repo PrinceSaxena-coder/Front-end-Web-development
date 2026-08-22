@@ -1,0 +1,139 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: hsl(0, 0%, 6%);
+        }
+
+        /* Top offer bar */
+        .offer {
+            height: 40px;
+            background: #292929;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            color: white;
+        }
+
+        /* Navigation */
+        nav {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8%;
+            background: #202020;
+            color: white;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: white;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+            color: white;
+        }
+
+        .nav-links a {
+            color: white;
+            font-size: 14px;
+            color: #dddddd;
+        }
+
+        .nav-links a:hover {
+            color: #bbbbbb;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .login {
+            color: white;
+            font-size: 14px;
+        }
+
+        .get-started {
+            background: white;
+            color: #222;
+            border: none;
+            padding: 15px 25px;
+            font-weight: bold;
+        }
+
+        /* Main section */
+        .hero {
+            min-height: 620px;
+            padding: 60px 8%;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            max-width: 700px;
+            margin: 20px auto 60px;
+            font-size: 48px;
+            letter-spacing: -2px;
+        }
+
+        /* Statistics */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 130px;
+            margin-bottom: 90px;
+            color: #dddddd;
+        }
+
+        .stat h2 {
+            font-size: 52px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .stat p {
+            font-size: 12px;
+            font-weight: bold;
+            color: #bbbbbb;
+        }
+
+        /* Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            text-align: left;
+        }
+
+        .card {
+            border: 1px solid #777;
+            padding: 25px;
+            min-height: 125px;
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #dddddd;
+        }
+        

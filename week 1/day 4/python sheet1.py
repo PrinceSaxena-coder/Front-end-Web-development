@@ -52,9 +52,17 @@ num = 51//10
 print(num)
 num = 1//1
 print(num)
-num = 101
-while num>0:
-    d = num%10
-    r = r * 10+d
-    num = num//10
-    print(r)
+
+
+kalia = 5 ^ 6;
+print(kalia);
+code = ord('o');
+print(code);
+char = chr(111);
+print(char);
+you = 7 ^ 5;
+print(you);
+char = chr(112);
+print(char);
+x = int(input("Enter a number: "));
+print(x)
